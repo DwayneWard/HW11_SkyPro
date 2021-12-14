@@ -13,6 +13,7 @@ html {
 main {
     width: 300px;
     margin: 0px auto;
+    font-family: Arial;
 }
 
 p {
@@ -26,10 +27,11 @@ a {
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
 .col {
-
+    flex: auto;
+    margin: 10px;
 }
 
 
@@ -85,7 +87,8 @@ a {
 /* Страничка популярного */
 
 .cover {
-
+    width: 150px;
+    height: 250px;
 }
 
 /* Страничка подписки  */
