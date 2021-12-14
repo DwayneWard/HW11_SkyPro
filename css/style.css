@@ -48,8 +48,14 @@ a {
 
 /* Потом селекторы по классам */
 
-.text-input {
 
+.text-input {
+    padding: 15px;
+    width: 100%;
+    border-width: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 .button {
