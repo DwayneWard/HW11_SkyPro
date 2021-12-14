@@ -6,10 +6,6 @@
 
 /* Потом селекторы по тегам */
 
-html {
-
-}
-
 main {
     width: 300px;
     margin: 0px auto;
@@ -29,10 +25,6 @@ main {
 p {
     line-height: 2;
     text-align:left;
-}
-
-a {
-
 }
 
 /* Колонки */
