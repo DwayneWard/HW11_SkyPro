@@ -40,7 +40,11 @@ a {
 }
 
 .button {
-
+    background-color: #554AF0;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 1px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -48,8 +52,11 @@ a {
 /* Login*/
 
 .input-login {
-
-
+    padding: 13px;
+    width: 100%;
+    border-width: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 
