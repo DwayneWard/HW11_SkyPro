@@ -64,6 +64,7 @@ a {
     padding: 13px;
     border-radius: 5px;
     border-width: 1px;
+    font-size: 14px;
 }
 
 /* Потом специальные правила по страничкам */
@@ -130,15 +131,40 @@ a {
 /* Страничка подписки  */
 
 .box-green {
+    padding: 20px;
+    margin: 0 0 15px 0;
+    background-color: #E1F5EA;
+    border-radius: 5px;
+}
 
+.boxes-text {
+    line-height: 1;
+    margin: 10px 0 0 0;
 }
 
 .box-purple {
-
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    background-color: #EBDCF9;
+    border-radius: 5px;
 }
 
 .text-large {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1;
+    margin: 0 0 0 0;
 
+}
+.button-subscription {
+    background-color: #554AF0;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 16px;
+    text-align: centre;
+    width: 70%;
 }
 
 .button-link {
