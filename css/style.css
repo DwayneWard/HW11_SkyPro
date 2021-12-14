@@ -16,22 +16,23 @@ main {
     font-family: Arial;
 }
 
-h2 {
+.single_name {
     font-size: 36px;
     margin-bottom: 5px;
 }
 
-h3 {
+.single_author {
     font-size: 24px;
     margin-top: 5px;
 }
+
 p {
     line-height: 2;
     text-align:left;
 }
 
 a {
-    text-decoration: none;
+
 }
 
 /* Колонки */
@@ -75,23 +76,42 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #E1F5EA;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .genre-second {
-
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #CBEDFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 75%;
 }
 
 .genre-third {
-
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #fbecdd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
 }
 
 .genre-fourth {
-
+    border-radius: 5px;
+    padding: 13px;
+    background-color: #EBDCF9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
 }
 
 .tag {
-
+    line-height: 1.5;
 }
 
 /* Страничка популярного */
@@ -125,4 +145,5 @@ a {
     border-radius: 5px;
     border-width: 1px;
     margin-right: 10px;
+    text-decoration: none;
 }
